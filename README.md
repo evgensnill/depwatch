@@ -46,8 +46,10 @@ depwatch watch --file requirements.txt --interval 24h
 |------|-------------|
 | `--file` | Path to requirements file |
 | `--notify` | Alert method (`slack`, `email`) |
+| `--webhook-url` | Webhook URL for Slack notifications |
 | `--interval` | Watch mode check interval (e.g. `12h`, `1d`) |
 | `--ignore` | Comma-separated list of packages to skip |
+| `--severity` | Minimum severity to report (`low`, `medium`, `high`) |
 
 ---
 
